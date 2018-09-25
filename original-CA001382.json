@@ -1,0 +1,576 @@
+{
+  "@context": "http://reg.genome.network/schema/allele.jsonld",
+  "@id": "http://reg.genome.network/allele/CA001382",
+  "externalRecords": {
+    "COSMIC": [
+      {
+        "active": false,
+        "id": "COSM148280"
+      },
+      {
+        "active": false,
+        "id": "COSM3755567"
+      }
+    ],
+    "ClinVarAlleles": [
+      {
+        "@id": "http://www.ncbi.nlm.nih.gov/clinvar/?term=131074[alleleid]",
+        "alleleId": 131074,
+        "preferredName": "NM_007294.3(BRCA1):c.2082C>T (p.Ser694=)"
+      }
+    ],
+    "ClinVarVariations": [
+      {
+        "@id": "http://www.ncbi.nlm.nih.gov/clinvar/variation/125536",
+        "RCV": [
+          "RCV000111763",
+          "RCV000114984",
+          "RCV000128966",
+          "RCV000152868",
+          "RCV000322007"
+        ],
+        "variationId": 125536
+      }
+    ],
+    "ExAC": [
+      {
+        "@id": "http://exac.broadinstitute.org/variant/17-41245466-G-A",
+        "id": "17-41245466-G-A",
+        "variant": "17:41245466 G / A"
+      }
+    ],
+    "MyVariantInfo_hg19": [
+      {
+        "@id": "http://myvariant.info/v1/variant/chr17:g.41245466G>A?assembly=hg19",
+        "id": "chr17:g.41245466G>A"
+      }
+    ],
+    "MyVariantInfo_hg38": [
+      {
+        "@id": "http://myvariant.info/v1/variant/chr17:g.43093449G>A?assembly=hg38",
+        "id": "chr17:g.43093449G>A"
+      }
+    ],
+    "dbSNP": [
+      {
+        "@id": "http://www.ncbi.nlm.nih.gov/snp/1799949",
+        "rs": 1799949
+      }
+    ],
+    "gnomAD": [
+      {
+        "@id": "http://gnomad.broadinstitute.org/variant/17-41245466-G-A",
+        "id": "17-41245466-G-A",
+        "variant": "17:41245466 G / A"
+      }
+    ]
+  },
+  "genomicAlleles": [
+    {
+      "chromosome": "17",
+      "coordinates": [
+        {
+          "allele": "A",
+          "end": 43093449,
+          "referenceAllele": "G",
+          "start": 43093448
+        }
+      ],
+      "hgvs": [
+        "NC_000017.11:g.43093449G>A",
+        "CM000679.2:g.43093449G>A"
+      ],
+      "referenceGenome": "GRCh38",
+      "referenceSequence": "http://reg.genome.network/refseq/RS000065"
+    },
+    {
+      "chromosome": "17",
+      "coordinates": [
+        {
+          "allele": "A",
+          "end": 38498992,
+          "referenceAllele": "G",
+          "start": 38498991
+        }
+      ],
+      "hgvs": [
+        "NC_000017.9:g.38498992G>A"
+      ],
+      "referenceGenome": "NCBI36",
+      "referenceSequence": "http://reg.genome.network/refseq/RS000017"
+    },
+    {
+      "chromosome": "17",
+      "coordinates": [
+        {
+          "allele": "A",
+          "end": 41245466,
+          "referenceAllele": "G",
+          "start": 41245465
+        }
+      ],
+      "hgvs": [
+        "NC_000017.10:g.41245466G>A",
+        "CM000679.1:g.41245466G>A"
+      ],
+      "referenceGenome": "GRCh37",
+      "referenceSequence": "http://reg.genome.network/refseq/RS000041"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 124535,
+          "referenceAllele": "C",
+          "start": 124534
+        }
+      ],
+      "hgvs": [
+        "NG_005905.2:g.124535C>T",
+        "LRG_292:g.124535C>T"
+      ],
+      "referenceSequence": "http://reg.genome.network/refseq/RS000438"
+    }
+  ],
+  "transcriptAlleles": [
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 789,
+          "endIntronDirection": "+",
+          "endIntronOffset": 2397,
+          "referenceAllele": "C",
+          "start": 789,
+          "startIntronDirection": "+",
+          "startIntronOffset": 2396
+        }
+      ],
+      "hgvs": [
+        "ENST00000352993.7:c.670+2397C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "ENSP00000312236.5:p.="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS247155"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 2146,
+          "referenceAllele": "C",
+          "start": 2145
+        }
+      ],
+      "hgvs": [
+        "ENST00000354071.7:c.2082C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "ENSP00000326002.7:p.Ser694="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS247245"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 2201,
+          "referenceAllele": "C",
+          "start": 2200
+        }
+      ],
+      "hgvs": [
+        "ENST00000357654.7:c.2082C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "ENSP00000350283.3:p.Ser694="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS246738"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 2183,
+          "referenceAllele": "C",
+          "start": 2182
+        }
+      ],
+      "hgvs": [
+        "ENST00000461221.5:c.*1865C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "ENSP00000418548.1:p.="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS305785"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 981,
+          "endIntronDirection": "+",
+          "endIntronOffset": 1295,
+          "referenceAllele": "C",
+          "start": 981,
+          "startIntronDirection": "+",
+          "startIntronOffset": 1294
+        }
+      ],
+      "hgvs": [
+        "ENST00000468300.5:c.787+1295C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "ENSP00000417148.1:p.="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS247345"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 2314,
+          "referenceAllele": "C",
+          "start": 2313
+        }
+      ],
+      "hgvs": [
+        "ENST00000471181.6:c.2082C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "ENSP00000418960.2:p.Ser694="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS247116"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 886,
+          "endIntronDirection": "+",
+          "endIntronOffset": 1295,
+          "referenceAllele": "C",
+          "start": 886,
+          "startIntronDirection": "+",
+          "startIntronOffset": 1294
+        }
+      ],
+      "hgvs": [
+        "ENST00000478531.5:c.784+1295C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "ENSP00000420412.1:p.="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS247368"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 409,
+          "endIntronDirection": "+",
+          "endIntronOffset": 1295,
+          "referenceAllele": "C",
+          "start": 409,
+          "startIntronDirection": "+",
+          "startIntronOffset": 1294
+        }
+      ],
+      "hgvs": [
+        "ENST00000484087.5:n.409+1295C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "ENSP00000419481.1:p.="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS247305"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 412,
+          "endIntronDirection": "+",
+          "endIntronOffset": 1295,
+          "referenceAllele": "C",
+          "start": 412,
+          "startIntronDirection": "+",
+          "startIntronOffset": 1294
+        }
+      ],
+      "hgvs": [
+        "ENST00000487825.5:n.412+1295C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "ENSP00000418212.1:p.="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS247188"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 886,
+          "endIntronDirection": "+",
+          "endIntronOffset": 1295,
+          "referenceAllele": "C",
+          "start": 886,
+          "startIntronDirection": "+",
+          "startIntronOffset": 1294
+        }
+      ],
+      "hgvs": [
+        "ENST00000491747.6:c.787+1295C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "ENSP00000420705.2:p.="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS247351"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 2173,
+          "referenceAllele": "C",
+          "start": 2172
+        }
+      ],
+      "hgvs": [
+        "ENST00000493795.5:c.1941C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "ENSP00000418775.1:p.Ser647="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS247204"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 878,
+          "endIntronDirection": "+",
+          "endIntronOffset": 1295,
+          "referenceAllele": "C",
+          "start": 878,
+          "startIntronDirection": "+",
+          "startIntronOffset": 1294
+        }
+      ],
+      "hgvs": [
+        "ENST00000493919.5:c.646+1295C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "ENSP00000418819.1:p.="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS247288"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 148,
+          "endIntronDirection": "-",
+          "endIntronOffset": 29497,
+          "referenceAllele": "C",
+          "start": 148,
+          "startIntronDirection": "-",
+          "startIntronOffset": 29498
+        }
+      ],
+      "hgvs": [
+        "ENST00000586385.5:c.5-29498C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "ENSP00000465818.1:p.="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS247162"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 59,
+          "endIntronDirection": "-",
+          "endIntronOffset": 18927,
+          "referenceAllele": "C",
+          "start": 59,
+          "startIntronDirection": "-",
+          "startIntronOffset": 18928
+        }
+      ],
+      "hgvs": [
+        "ENST00000591534.5:c.-43-18928C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "ENSP00000467329.1:p.="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS247210"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 59,
+          "endIntronDirection": "+",
+          "endIntronOffset": 31822,
+          "referenceAllele": "C",
+          "start": 59,
+          "startIntronDirection": "+",
+          "startIntronOffset": 31821
+        }
+      ],
+      "hgvs": [
+        "ENST00000591849.5:c.-99+31822C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "ENSP00000465347.1:p.="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS246631"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 2098,
+          "referenceAllele": "C",
+          "start": 2097
+        }
+      ],
+      "hgvs": [
+        "ENST00000634433.1:c.1959C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "ENSP00000489431.1:p.Ser653="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS407823"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 2314,
+          "referenceAllele": "C",
+          "start": 2313
+        }
+      ],
+      "gene": "http://reg.genome.network/gene/GN001100",
+      "geneNCBI_id": 672,
+      "geneSymbol": "BRCA1",
+      "hgvs": [
+        "NM_007294.3:c.2082C>T",
+        "LRG_292t1:c.2082C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "NP_009225.1:p.Ser694="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS032212"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 2222,
+          "referenceAllele": "C",
+          "start": 2221
+        }
+      ],
+      "gene": "http://reg.genome.network/gene/GN001100",
+      "geneNCBI_id": 672,
+      "geneSymbol": "BRCA1",
+      "hgvs": [
+        "NM_007297.3:c.1941C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "NP_009228.2:p.Ser647="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS032213"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 806,
+          "endIntronDirection": "+",
+          "endIntronOffset": 1295,
+          "referenceAllele": "C",
+          "start": 806,
+          "startIntronDirection": "+",
+          "startIntronOffset": 1294
+        }
+      ],
+      "gene": "http://reg.genome.network/gene/GN001100",
+      "geneNCBI_id": 672,
+      "geneSymbol": "BRCA1",
+      "hgvs": [
+        "NM_007298.3:c.787+1295C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "NP_009229.2:p.="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS032214"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 981,
+          "endIntronDirection": "+",
+          "endIntronOffset": 1295,
+          "referenceAllele": "C",
+          "start": 981,
+          "startIntronDirection": "+",
+          "startIntronOffset": 1294
+        }
+      ],
+      "gene": "http://reg.genome.network/gene/GN001100",
+      "geneNCBI_id": 672,
+      "geneSymbol": "BRCA1",
+      "hgvs": [
+        "NM_007299.3:c.787+1295C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "NP_009230.2:p.="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS032215"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 2314,
+          "referenceAllele": "C",
+          "start": 2313
+        }
+      ],
+      "gene": "http://reg.genome.network/gene/GN001100",
+      "geneNCBI_id": 672,
+      "geneSymbol": "BRCA1",
+      "hgvs": [
+        "NM_007300.3:c.2082C>T"
+      ],
+      "proteinEffect": {
+        "hgvs": "NP_009231.2:p.Ser694="
+      },
+      "referenceSequence": "http://reg.genome.network/refseq/RS032216"
+    },
+    {
+      "coordinates": [
+        {
+          "allele": "T",
+          "end": 2218,
+          "referenceAllele": "C",
+          "start": 2217
+        }
+      ],
+      "gene": "http://reg.genome.network/gene/GN001100",
+      "geneNCBI_id": 672,
+      "geneSymbol": "BRCA1",
+      "hgvs": [
+        "NR_027676.1:n.2218C>T"
+      ],
+      "referenceSequence": "http://reg.genome.network/refseq/RS047824"
+    }
+  ],
+  "type": "nucleotide"
+}
