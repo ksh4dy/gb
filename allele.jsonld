@@ -11,7 +11,7 @@
         },
         "externalRecords" : { 
             "@id"  : "gns:externalRecord",
-            "@type": "@id",
+            
             "@container": "@index"
         },
         "variationId": {
