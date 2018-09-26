@@ -6,8 +6,8 @@
             "@id"  : "gns:isTypeOf"
         },
         "activeIds": {
-            "@id"  : "gns:replacedBy",
-            "@type": "@id"
+            "@id"  : "gns:replacedBy"
+            
         },
         "externalRecords" : { 
             "@id"  : "gns:externalRecord",
@@ -36,20 +36,20 @@
             "@id"  : "gns:hasIdentifierHGVS"
         },
         "referenceSequence": { 
-            "@id"  : "gns:definedFor",
-            "@type": "@id"
+            "@id"  : "gns:definedFor"
+            
         },
         "coordinates": { 
-            "@id"  : "gns:contains",
-            "@type": "@id"
+            "@id"  : "gns:contains"
+            
         },
         "start": { 
-            "@id"  : "gns:positionStart",
-            "@type": "xsd:unsignedInt"
+            "@id"  : "gns:positionStart"
+            
         },
         "end": { 
-            "@id"  : "gns:positionEnd",
-            "@type": "xsd:unsignedInt"
+            "@id"  : "gns:positionEnd"
+            
         },
         "referenceAllele": { 
             "@id"  : "gns:referenceAllele"
@@ -58,15 +58,15 @@
             "@id"  : "gns:replacedBy"
         },
         "startIntronOffset": {
-            "@id"  : "gns:startIntronOffset",
-            "@type": "xsd:unsignedInt"
+            "@id"  : "gns:startIntronOffset"
+            
         },
         "startIntronDirection": { 
             "@id"  : "gns:startIntronDirection"
         },
         "stopIntronOffset": {
-            "@id"  : "gns:stopIntronOffset",
-            "@type": "xsd:unsignedInt"
+            "@id"  : "gns:stopIntronOffset"
+            
         },
         "stopIntronDirection": { 
             "@id"  : "gns:stopIntronDirection"
